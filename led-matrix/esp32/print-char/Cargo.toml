@@ -5,7 +5,7 @@ version = "0.1.0"
 
 [[bin]]
 name = "print-char"
-path = "./src/bin/main.rs"
+path = "./src/main.rs"
 
 [dependencies]
 defmt = "1.0.1"
@@ -30,7 +30,7 @@ embedded-hal-bus = "0.3.0"
 max7219-display = { git = "https://github.com/ImplFerris/max7219-display", features = [
   "led-matrix",
 ] }
-# max7219-display = {version="0.1.0", features = [
+# max7219-display = {version="0.1.2", features = [
 #   "led-matrix",
 # ] }
 

@@ -1,10 +1,10 @@
 [package]
 edition = "2021"
-name = "scroll-text"
+name = "print-text"
 version = "0.1.0"
 
 [[bin]]
-name = "scroll-text"
+name = "print-text"
 path = "./src/main.rs"
 
 [dependencies]

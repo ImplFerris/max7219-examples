@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["print-char", "scroll-text"]
+members = ["print-char", "scroll-text", "graphics", "symbols", "print-text"]
 
 [workspace.dependencies]
 defmt = "1.0.1"
